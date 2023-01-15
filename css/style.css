@@ -1,0 +1,645 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+}
+/* common style */
+:root{
+    --primary-color:#131313;
+    --secondry-color: #727272;
+    --btn-primary:#FF900E;
+    --text-color: #ffffff;
+}
+
+.container{
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.bg-color{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/*************************
+header section style start 
+**************************/
+.header__container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.header__titel{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--primary-color);
+}
+.menu_item{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--primary-color);
+    margin-top: 23px;
+}
+.menu_item li{
+    padding: 0px 20px 0px 33px;
+}
+/*************************
+header section style start 
+**************************/
+
+/*************************
+Brand New section style start 
+**************************/
+.brand_new{
+    text-align: center;
+}
+.brand__titel{
+    font-weight: 700;
+    font-size: 64px;
+    color: var(--primary-color);
+}
+.brand__description{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--secondry-color);
+    padding: 25px 5px;
+}
+.btn__primary{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--text-color);
+    border: none;
+    padding: 20px 24px;
+    background-color: var(--btn-primary);
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+/*************************
+Brand New section style end 
+**************************/
+
+/******************************
+banner images section style end 
+*******************************/
+.banner__img__part{
+    padding-bottom: 45px;
+}
+.banner__img__part img{
+    Width:100%;
+}
+/********************************
+banner images section style end 
+*********************************/
+
+/*********************************************
+Quick list of Our Features section style start 
+**********************************************/
+.our__feature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.quick_img_part{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.quick_img_part .quick_img > img{
+    width: 100%;
+    height: 342px;
+}
+.quick__content{
+    margin-left: 73px;
+}
+.titel__part{
+    padding-bottom: 24px;
+}
+.quick{
+    font-weight: 500;
+    font-size: 45px;
+    color: var(--secondry-color);
+}
+.our{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--primary-color);
+}
+.feature{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--btn-primary);
+}
+.quick__discription{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--secondry-color);
+    padding-bottom: 32px;
+}
+/*********************************************
+Quick list of Our Features section style end 
+**********************************************/
+
+/*********************************************
+Features you will love & enjoy section start 
+**********************************************/
+.feature_enjoy{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+.feature__enjoy__content{
+    display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.feature__titel{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--primary-color);
+    padding-bottom: 24px;
+    border-left: 3px solid var(--btn-primary);
+    padding-left: 5px;
+}
+.feature__discription{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--secondry-color);
+}
+.feature__content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 586px;
+    width: 100%;
+    height: 744px;
+    padding-top: 30px;
+}
+.common_content{
+    max-width: 586px;
+    width: 100%;
+    height: 171px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+}
+.commom__titel{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--primary-color);
+}
+.common__discription{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--secondry-color);
+    padding: 10px 0;
+}
+.feature__img img{
+    max-width: 710px;
+    /* width: 100%; */
+    height: 884px;
+}
+.love__enjoy__section{
+    position: relative;
+}
+.year__exprience {
+    width: 330px;
+    height: 160px;
+    border-radius: 8px;
+    background-color: var(--btn-primary);
+    position: absolute;
+    margin-top: -78px;
+    z-index: 9;
+    margin-left: -40px;
+}
+
+.year__content{
+    padding: 40px 42px;
+    color: var(--text-color);
+    text-align: center;
+}
+.year{
+    font-weight: 700;
+    font-size: 65px;
+    color: var(--text-color);
+}
+.experience{
+    font-weight: 500;
+    font-size: 25px;
+    color: var(--text-color);
+}
+/*********************************************
+Features you will love & enjoy section end 
+**********************************************/
+
+/*********************************************
+Some Facts section start 
+**********************************************/
+.some_fact_section{
+    padding: 30px 10px;
+}
+.some_titel{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--primary-color);
+    padding-bottom: 24px;
+}
+.some_discription{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--secondry-color);
+}
+/*********************************************
+Some Facts section end
+**********************************************/
+
+/**********************
+Awards section start
+*********************/
+.awards_section{
+    padding: 50px 10px;
+}
+.awards_parts{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.awards{
+    width: 241.83px;
+    height: 241.83px;
+    border: 2px solid var(--btn-primary);
+    padding: 45px 35px;
+    transition: all 1s ease-in-out;
+}
+.awards:hover{
+    transform: rotate(360deg);
+    background-color: var(--btn-primary);
+}
+.awrds__nmbr{
+    font-weight: 600;
+    font-size: 45px;
+    color: var(--secondry-color);
+    padding-bottom: 5px;
+}
+.awards_discrip{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--secondry-color);
+}
+/**********************
+Awards section style end
+*********************/
+
+/*************************************
+our meeting  photo section style start
+*******************************/
+.our__meeting_titel{
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: var(--primary-color);
+    padding: 50px 10px;
+}
+.meeting__content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    gap: 25px;
+    padding-bottom: 70px;
+}
+
+.meeting_text{
+    height: 423px;
+    background-color: var(--text-color);
+    filter: drop-shadow(0px 7.34229px 6.3557px rgba(0, 0, 0, 5.05));
+    border-radius: 5px;
+    padding: 15px;
+    border-radius: 8px;
+    padding: 1rem;
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient( to bottom, red, rgba(0, 0, 0, 0) ) 1 100%;
+}
+
+.meeting__img img{
+    width: 100%;
+    height: 256px;
+    object-fit: cover;
+}
+.meeting__titel{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--primary-color);
+    padding: 10px 10px;
+}
+.meeting__discription{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--secondry-color);
+}
+/************************************
+our meeting  photo section style end
+************************************/
+
+/********************************
+Our Sponsors section style start
+*******************************/
+.sponsore__content{
+    text-align: center;
+}
+.sponser_titel{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--primary-color);
+    padding-top: 70px;
+}
+.sponser_discription{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--secondry-color);
+    padding: 24px 5px;
+    margin-bottom: 50px;
+}
+.sponser_logo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 130px;
+}
+/******************************
+Our Sponsors section style end
+*******************************/
+
+/*******************************
+/* footer section style start */
+/*******************************/
+.footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_text{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--primary-color);
+    padding: 15px 50px;
+}
+/*******************************
+/* footer section style end
+*******************************/
+
+
+/* media Quires start */
+/********************
+ desktop view 
+ ******************/
+ @media (max-width:1250px){
+    .container{
+        width: 100%;
+    }
+    .header__container{
+        display: grid;
+    }
+    .header__titel{
+        text-align: center;
+    }
+    .our__feature{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    .quick__content{
+        text-align: center;
+    }
+    .feature_enjoy{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .feature__enjoy__content{
+        display: flex;
+       flex-direction: column;
+       gap: 20px;
+    }
+    .feature__titel ,.feature__discription{
+        padding: 5px 10px;
+    }
+    .feature__img img{
+        width: 100%;
+    }
+    .year__exprience{
+        width: 330px;
+        height: 160px;
+        border-radius: 8px;
+        background-color: var(--btn-primary);
+        left: 220px;
+    }
+    .feature__content{
+        margin: 0 auto;
+    }
+    .awards_parts{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        gap: 15px;
+    }
+    .meeting__content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+        gap: 25px;
+    }
+    .sponser_logo{
+        align-items: center;
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+    }
+}
+
+
+
+/**************
+Tablet View 
+****************/
+
+@media (max-width:768px){
+    .container{
+        width: 100%;
+    }
+    .header__section{
+        text-align: center;
+    }
+    .header__container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .menu_item{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px 5px;
+    }
+    .menu_item li{
+        padding: 20px 5px;
+    }
+    .our__feature{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    .feature_enjoy{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .feature__enjoy__content{
+        display: flex;
+       flex-direction: column;
+       gap: 20px;
+    }
+    .feature__titel ,.feature__discription{
+        padding: 5px 10px;
+    }
+    .feature__img img{
+        margin-top: 15px;
+        width: 100%;
+    }
+    .year__exprience{
+        width: 330px;
+        height: 160px;
+        border-radius: 8px;
+        background-color: var(--btn-primary);
+        left: 120px;
+    }
+    .awards_parts{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .meeting__content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+        gap: 25px;
+    }
+    .meeting_text{
+        height: 470px;
+    }
+    .sponser_logo{
+        align-items: center;
+        flex-direction: column;
+    }
+    .sponsorr_logo_img{
+        padding: 20px 3px;
+    }
+}
+
+/* .hide{
+    display: none;
+} */
+
+/***************
+ Mobile device 
+ ***************/
+@media (max-width:577px){
+    .container{
+        width: 100%;
+        overflow: hidden;
+    }
+    .header__section{
+        text-align: center;
+    }
+    .header__container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .menu_item{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px 5px;
+    }
+    .menu_item li{
+        padding: 20px 5px;
+    }
+    .brand__titel {
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .brand__description {
+        font-weight: 400;
+        font-size: 12px;
+        padding: 25px 5px;
+    }
+    .our__feature{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+    /* .common__discription{
+        width: 400px;
+    } */
+    .quick_img_part{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+    .quick_img_part .quick_img > img{
+        width: 100%;
+        height: 342px;
+    }
+    .feature_enjoy{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .feature__enjoy__content{
+        display: flex;
+       flex-direction: column;
+       gap: 20px;
+    }
+    .feature__titel ,.feature__discription{
+        padding: 5px 10px;
+    }
+    .feature__img img{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .year__exprience{
+        width: 330px;
+        height: 160px;
+        border-radius: 8px;
+        background-color: var(--btn-primary);
+        left: 70px;
+    }
+    .awards_parts{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        gap: 10px;
+    }
+    .meeting__content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+        gap: 25px;
+    }
+    .sponser_logo{
+        align-items: center;
+        flex-direction: column;
+    }
+    .sponsorr_logo_img{
+        padding: 20px 3px;
+    }
+}
+
+@media (max-width:446px){
+    .feature__img img{
+        width: 100%;
+    }
+}
