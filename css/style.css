@@ -417,9 +417,9 @@ Our Sponsors section style end
         align-items: center;
         justify-content: center;
     }
-    .quick__content{
+    /* .quick__content{
         text-align: center;
-    }
+    } */
     .feature_enjoy{
         justify-content: center;
         flex-direction: column;
